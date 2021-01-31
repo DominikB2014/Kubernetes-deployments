@@ -9,4 +9,4 @@ All config files to create a basic k8s cluster with:
 ### Request Path
 Browser -> External mongo-express service -> mongo-express pod -> mongodb internal service -> mongodb pod
 
-localhost:<port> -> <serviceExternalIp>:3000 -> mongo-express container -> <serviceInternalIp>:27017 -> mongodb container
+`localhost:<port>` -> `<serviceExternalIp>:3000` -> `mongo-express container` -> `<serviceInternalIp>:27017` -> `mongodb container`
